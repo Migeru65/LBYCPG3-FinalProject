@@ -1,4 +1,5 @@
 Prerequisites
+
 Make sure you have Node.js installed on your computer. You can check if it's installed by opening your terminal/command prompt and typing node -v.
 Step-by-Step Guide
 1. Download the Project
