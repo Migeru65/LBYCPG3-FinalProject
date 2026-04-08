@@ -1,6 +1,6 @@
 import React from 'react';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/Card';
-import { Activity, Github, Globe } from 'lucide-react';
+import { Activity } from 'lucide-react';
 
 export function About() {
   return (
@@ -58,25 +58,6 @@ export function About() {
           </CardContent>
         </Card>
       </div>
-
-      <Card className="bg-primary-900 text-white border-transparent">
-        <CardContent className="p-8 text-center">
-          <h2 className="text-2xl font-display font-bold mb-4">Start Tracking Today</h2>
-          <p className="text-primary-100 mb-6 max-w-lg mx-auto">
-            Keep your nutrition in check and hit your fitness goals with Lakas. Your data stays private and local to your device.
-          </p>
-          <div className="flex justify-center gap-4">
-            <a href="#" className="inline-flex items-center gap-2 text-primary-200 hover:text-white transition-colors">
-              <Github size={20} />
-              <span>Source Code</span>
-            </a>
-            <a href="#" className="inline-flex items-center gap-2 text-primary-200 hover:text-white transition-colors">
-              <Globe size={20} />
-              <span>Website</span>
-            </a>
-          </div>
-        </CardContent>
-      </Card>
     </div>
   );
 }
